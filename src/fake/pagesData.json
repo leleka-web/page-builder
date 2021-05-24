@@ -1,0 +1,131 @@
+{
+  "home": {
+    "seoMeta": {
+      "title": "Home",
+      "meta": [
+        {"description": "Free Web tutorials"},
+        {"keywords": "TML, CSS, JavaScript"}
+      ]
+    },
+    "pageComponents": [
+      {
+        "componentName": "Header",
+        "componentData": {
+          "headerTitle": "Home page"
+        }
+      },
+      {
+        "componentName": "Carousel",
+        "componentData": {
+          "items": [
+            {
+              "src": "https://cdn.motor1.com/images/mgl/6MqJZ/s1/ford-mustang-shelby-gt500-imported-by-peicher-us-cars.jpg",
+              "title": "Item -1",
+              "subtitle": "Alias architecto aut culpa debitis in laborum minus nobis possimus quam?"
+            },
+            {
+              "src": "https://cdn.motor1.com/images/mgl/YoryW/s3/ford-mustang-shelby-gt500-imported-by-peicher-us-cars.jpg",
+              "title": "Item -2",
+              "subtitle": "Alias architecto aut culpa debitis in laborum minus nobis possimus quam?"
+            },
+            {
+              "src": "https://carsweek.ru/upload/iblock/000/00071a0bf9a763b03ea50e57d791779f.jpg",
+              "title": "Item -3",
+              "subtitle": "Alias architecto aut culpa debitis in laborum minus nobis possimus quam?"
+            }
+          ]
+        }
+      },
+      {
+        "componentName": "Footer",
+        "componentData": {
+          "links": [
+            {
+              "href": "https://www.instagram.com/",
+              "title": "instagram"
+            },{
+              "href": "https://uk-ua.facebook.com/",
+              "title": "facebook"
+            }
+
+          ]
+        }
+      }
+    ]
+  },
+  "about": {
+    "seoMeta": {
+      "title": "About us"
+    },
+    "pageComponents": [
+      {
+        "componentName": "Header",
+        "componentData": {
+          "headerTitle": "About us page"
+        }
+      },
+      {
+        "componentName": "AboutUs",
+        "componentData": {
+          "imgSrc": "https://www.rapidformationsblog.co.uk/wp-content/uploads/2020/03/RF-Directors.jpg",
+          "title": "Card Title",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi illum ipsum sapiente similique tenetur. Accusantium fugit hic neque possimus quae quia quibusdam quis tempora tempore unde. Dignissimos est mollitia optio.\n"
+        }
+      },
+      {
+        "componentName": "Carousel",
+        "componentData": {
+          "items": [
+            {
+              "src": "https://cdn.motor1.com/images/mgl/6MqJZ/s1/ford-mustang-shelby-gt500-imported-by-peicher-us-cars.jpg",
+              "title": "Item -1",
+              "subtitle": "Alias architecto aut culpa debitis in laborum minus nobis possimus quam?"
+            },
+            {
+              "src": "https://cdn.motor1.com/images/mgl/YoryW/s3/ford-mustang-shelby-gt500-imported-by-peicher-us-cars.jpg",
+              "title": "Item -2",
+              "subtitle": "Alias architecto aut culpa debitis in laborum minus nobis possimus quam?"
+            },
+            {
+              "src": "https://carsweek.ru/upload/iblock/000/00071a0bf9a763b03ea50e57d791779f.jpg",
+              "title": "Item -3",
+              "subtitle": "Alias architecto aut culpa debitis in laborum minus nobis possimus quam?"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "contact": {
+    "seoMeta": {
+      "title": "Contacts"
+    },
+    "pageComponents": [
+      {
+        "componentName": "Header",
+        "componentData": {
+          "headerTitle": "Contact page"
+        }
+      },
+      {
+        "componentName": "Faq",
+        "componentData": {
+          "items": [
+            {
+              "title":  "Надо ли переписать все мои классовые компоненты?",
+              "body":  "Нет, мы не собираемся удалять классы из React, поскольку никто не может позволить себе такой глобальный рефакторинг. Мы советуем пробовать хуки только в новом коде"
+            },
+            {
+              "title":  "Что можно сделать с помощью хуков, чего невозможно добиться, используя классы?",
+              "body":  "Нет, мы не собираемся удалять классы из React, поскольку никто не может позволить себе такой глобальный рефакторинг. Мы советуем пробовать хуки только в новом коде"
+            },
+            {
+              "title":  "Какая часть моих знаний о React всё ещё актуальна?",
+              "body":  "Нет, мы не собираемся удалять классы из React, поскольку никто не может позволить себе такой глобальный рефакторинг. Мы советуем пробовать хуки только в новом коде"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
